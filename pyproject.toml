@@ -1,0 +1,25 @@
+[project]
+name = "assayer"
+version = "0.1.0"
+description = "A plain-language dataset requirement becomes reproducible synthetic data, proven by executed checks."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pytsg>=1.0.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "jsonschema>=4.21",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+assayer = "engine.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["engine", "models", "profiles"]
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
