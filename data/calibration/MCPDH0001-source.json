@@ -1,0 +1,13 @@
+{
+ "dataset_id": "bd95a063-29f0-4ba8-8512-fbbe0f5de58",
+ "dataset_name": "MCPDH0001",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/mcpdh0001",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=bd95a063-29f0-4ba8-8512-fbbe0f5de58&logid=4b5683ee-976a-4feb-a90c-1f19bc45698&logid=8e222acb-1e7f-4cb5-b1dc-92b62f2f754&logid=b60a7a97-46bc-4341-86bb-7f801f32b3d",
+ "retrieved_at": "2026-10-29T04:47:43+00:00",
+ "path": "data/calibration/MCPDH0001-scalars.csv",
+ "sha256": "753d9fd04d4a499a8c2f91dbeb162068867ebc04d2d382ebe89e603d7649b991",
+ "size_bytes": 1386235,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 36040
+}

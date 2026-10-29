@@ -1,0 +1,13 @@
+{
+ "dataset_id": "6fcdeaa3-fc14-4f86-a2ee-3617e3b7368",
+ "dataset_name": "RYDD14004",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/rydd14004",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=6fcdeaa3-fc14-4f86-a2ee-3617e3b7368&logid=1b41a29d-79a4-4ed3-b4c6-23bb9f37f70&logid=712e95d3-0388-49c4-9932-4ec321c4188&logid=941494af-4e1f-41a6-9f83-87b76d43f73",
+ "retrieved_at": "2026-10-29T04:47:41+00:00",
+ "path": "data/calibration/RYDD14004-scalars.csv",
+ "sha256": "2214ffae4cd4576ed6cb175121a825382e8e832bb8a41f7110de04025c203aad",
+ "size_bytes": 829760,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 22500
+}

@@ -1,0 +1,13 @@
+{
+ "dataset_id": "0e2bb953-1bbb-448f-a00d-3a08ba0f32b",
+ "dataset_name": "SDH08-2",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/SDH08-2",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=0e2bb953-1bbb-448f-a00d-3a08ba0f32b&logid=0ea7e9a8-7ccf-4766-b7fc-135e373a375&logid=110987c8-4e4b-4014-933d-38c422f8846&logid=a4f1f24c-edbd-4e66-8ae6-2595ff19c24",
+ "retrieved_at": "2026-10-29T04:47:47+00:00",
+ "path": "data/calibration/SDH08-2-scalars.csv",
+ "sha256": "d2e6d45a138dc32469ae3e74a6346792b095d14222cf1d87ab1d3466c67ad9a6",
+ "size_bytes": 6121408,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 158656
+}

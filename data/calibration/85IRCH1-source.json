@@ -1,0 +1,13 @@
+{
+ "dataset_id": "2957730c-ea2d-41ee-9b03-99978e3fab6",
+ "dataset_name": "85IRCH1",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/85irch1",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=2957730c-ea2d-41ee-9b03-99978e3fab6&logid=26f49d00-f527-4f88-9196-4cb7cf0ecfd&logid=5a8f9e33-1fb7-4a97-bf85-a4c2914f94a&logid=6c3dcd59-4df7-479f-b662-9940562efe5",
+ "retrieved_at": "2026-10-29T04:47:40+00:00",
+ "path": "data/calibration/85IRCH1-scalars.csv",
+ "sha256": "a17309472f9d0a2070560b6a6cf32404020a9d9ea69541b1c30e3c49e3f80855",
+ "size_bytes": 611783,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 17688
+}

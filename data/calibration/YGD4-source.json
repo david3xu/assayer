@@ -1,0 +1,13 @@
+{
+ "dataset_id": "192662b8-cbff-40e3-af7d-7c7c752c09c",
+ "dataset_name": "YGD4",
+ "borehole_uri": "https://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/YGD4",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=192662b8-cbff-40e3-af7d-7c7c752c09c&logid=24a5b569-513f-4cee-826f-a99e9ea0814&logid=7974681c-5d68-4a81-9276-d2f429f4513&logid=e5152add-63d4-458f-afa5-190c4d497e4",
+ "retrieved_at": "2026-10-29T04:47:49+00:00",
+ "path": "data/calibration/YGD4-scalars.csv",
+ "sha256": "c7fb0650a3dd8bddce42320c4ebc634be49f4ad54ce0cef40d4df73a19d0c6a3",
+ "size_bytes": 4223457,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 112009
+}

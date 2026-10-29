@@ -1,0 +1,13 @@
+{
+ "dataset_id": "123cc0a2-2c25-4d8d-89b2-e7ac05ba098",
+ "dataset_name": "KD1",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/KD1",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=123cc0a2-2c25-4d8d-89b2-e7ac05ba098&logid=125da567-2abd-4997-8cbe-ca84a08cdb8&logid=953103c4-34f0-4a86-8886-eebff5b9d28&logid=bb05abd3-b77e-47aa-836e-98cde38d3b8",
+ "retrieved_at": "2026-10-29T04:47:41+00:00",
+ "path": "data/calibration/KD1-scalars.csv",
+ "sha256": "c93bc2b2c470436586450b348a5518e4f6f72a6fd236fba5be597d548814372b",
+ "size_bytes": 1019092,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 27012
+}

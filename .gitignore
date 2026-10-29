@@ -6,4 +6,5 @@ runs/*/
 !runs/.gitkeep
 *.gguf
 .DS_Store
-data/sources/*.csv
+data/**/*-scalars.csv
+!data/**/*-source.json

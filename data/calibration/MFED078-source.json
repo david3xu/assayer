@@ -1,0 +1,13 @@
+{
+ "dataset_id": "95e6cbb8-7cf3-448e-b382-dad542af56a",
+ "dataset_name": "MFED078",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/MFED078",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=95e6cbb8-7cf3-448e-b382-dad542af56a&logid=8176c023-92a9-40f3-a462-c5c8220c21b&logid=bacfbce7-aae7-4d2f-b56c-a7af8367ccb&logid=d6f2ff14-f365-475c-b68d-b6937ab5a52",
+ "retrieved_at": "2026-10-29T04:47:41+00:00",
+ "path": "data/calibration/MFED078-scalars.csv",
+ "sha256": "670cc8d13321c239d7fd20e52330ede839e0c35007d71696999e33aca97c52b8",
+ "size_bytes": 930306,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 24120
+}

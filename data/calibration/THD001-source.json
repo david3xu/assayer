@@ -1,0 +1,13 @@
+{
+ "dataset_id": "6b96f838-9bbb-4702-9130-d28edcc1584",
+ "dataset_name": "THD001",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/THD001",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=6b96f838-9bbb-4702-9130-d28edcc1584&logid=0f6c5cf2-f975-49af-886f-5602d1cb8a7&logid=2fd42587-54d4-4f22-8c4f-7cfcc09b7f7&logid=6ab4ddfe-6383-41dd-812c-7755519c037",
+ "retrieved_at": "2026-10-29T04:47:49+00:00",
+ "path": "data/calibration/THD001-scalars.csv",
+ "sha256": "31dfd84c8c38f4aff0e838d26aec3b2228504b2e122c385796aa13993eb07736",
+ "size_bytes": 5168633,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 136320
+}

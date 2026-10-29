@@ -1,0 +1,13 @@
+{
+ "dataset_id": "6427e561-3876-4f4a-8c0b-97b9f066345",
+ "dataset_name": "ARMCDD001",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/ARMCDD001",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=6427e561-3876-4f4a-8c0b-97b9f066345&logid=3f097b96-be7b-4550-95cd-4f378f82d55&logid=b35a80c7-355e-4bf7-90fb-33b7cf21014&logid=ea2d2187-102a-4502-9f89-5f65b665884",
+ "retrieved_at": "2026-10-29T04:47:42+00:00",
+ "path": "data/calibration/ARMCDD001-scalars.csv",
+ "sha256": "7bec9076b2425b84833a743684be7e33f38e9bb825c5d15be3711d42294ae38a",
+ "size_bytes": 2484002,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 68162
+}

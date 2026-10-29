@@ -1,0 +1,13 @@
+{
+ "dataset_id": "5331b882-3171-4d2c-9bcd-420770eb0a0",
+ "dataset_name": "19AFRD2005",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/19AFRD2005",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=5331b882-3171-4d2c-9bcd-420770eb0a0&logid=00bc3172-47d5-43e3-a83e-8ed50e16b1c&logid=34211641-f9c5-490f-8289-540f27f9dd9&logid=f5919666-6eb1-4065-ac3d-9c22bcf5f65",
+ "retrieved_at": "2026-10-29T04:47:47+00:00",
+ "path": "data/calibration/19AFRD2005-scalars.csv",
+ "sha256": "6d20810ad2545800d2762f5a91b8deac5469f694fc6e1464664ddf0157a1fec9",
+ "size_bytes": 2875699,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 75706
+}

@@ -1,0 +1,13 @@
+{
+ "dataset_id": "c2d9d415-1a99-48af-b5f9-006e4039902",
+ "dataset_name": "FFD03",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/FFD03",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=c2d9d415-1a99-48af-b5f9-006e4039902&logid=3c38fa00-8916-48cc-850c-c1288f49aa7&logid=8c676a68-4a0c-4bf6-aa83-a0c8db1b3a1&logid=9a5f4fc8-6ad4-40ea-85ee-47694bf02b6",
+ "retrieved_at": "2026-10-29T04:47:45+00:00",
+ "path": "data/calibration/FFD03-scalars.csv",
+ "sha256": "e8bd1426d6eefd9be6130bef2a5436d80f3eccf00b88c4d0144a8ce3937dad33",
+ "size_bytes": 1841338,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 48106
+}

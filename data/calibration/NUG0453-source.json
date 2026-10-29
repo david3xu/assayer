@@ -1,0 +1,13 @@
+{
+ "dataset_id": "886305de-a64d-49bf-9a1f-572eb689542",
+ "dataset_name": "NUG0453",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/NUG0453",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=886305de-a64d-49bf-9a1f-572eb689542&logid=45676f44-6bf4-46c0-a3bc-f4894906fcc&logid=a8955350-4e1e-435c-979c-6f0f56e322b&logid=af8c844a-ca40-4de7-97a1-a3537fdac32",
+ "retrieved_at": "2026-10-29T04:47:43+00:00",
+ "path": "data/calibration/NUG0453-scalars.csv",
+ "sha256": "139ad94d9ce947172d51d2d9c8776370b3cb75db9cccf2023917a128c1673810",
+ "size_bytes": 1521607,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 41265
+}

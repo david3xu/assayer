@@ -1,0 +1,13 @@
+{
+ "dataset_id": "dc4e477b-1019-4e9c-af6d-c1ca954ac66",
+ "dataset_name": "DDB9",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/DDB9",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=dc4e477b-1019-4e9c-af6d-c1ca954ac66&logid=5044758c-7afb-4285-b13e-2e6d2a1039c&logid=5c0d1842-4a32-4a09-beb8-a96364653e6&logid=84fb7827-ec8d-44d6-9e8f-c0961175b03",
+ "retrieved_at": "2026-10-29T04:47:41+00:00",
+ "path": "data/calibration/DDB9-scalars.csv",
+ "sha256": "8915d8c72910e587289f4b860af6730ee34a8759291925d10da45b2e452c64c0",
+ "size_bytes": 1025524,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 28140
+}

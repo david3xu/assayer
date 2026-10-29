@@ -1,0 +1,13 @@
+{
+ "dataset_id": "155e39d4-ed73-42d0-a050-ca1b2e70ad0",
+ "dataset_name": "TUR13DD004",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/tur13dd004",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=155e39d4-ed73-42d0-a050-ca1b2e70ad0&logid=88e88468-573f-4624-a45d-59a6fa977e1&logid=d071bbc4-8bf6-46ee-b468-c49262706f1&logid=eaa39304-f9d4-494f-9323-2914ecc3fb2",
+ "retrieved_at": "2026-10-29T04:47:47+00:00",
+ "path": "data/calibration/TUR13DD004-scalars.csv",
+ "sha256": "51725d0654b806206a0ad77229973e4864d103b6fa02c7785e2d3aa32b45ab8a",
+ "size_bytes": 2824856,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 72600
+}

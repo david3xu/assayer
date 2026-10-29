@@ -1,0 +1,13 @@
+{
+ "dataset_id": "4adebfdc-a1bf-4c74-9e24-fe9e8905e3a",
+ "dataset_name": "ORTL04",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/ortl04",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=4adebfdc-a1bf-4c74-9e24-fe9e8905e3a&logid=4d48276c-be72-4920-b52c-c228955fed5&logid=c295e686-2c86-4abc-8d37-5952522f1f4&logid=c5a4305d-efb1-4bfa-b27f-9563f2117d8",
+ "retrieved_at": "2026-10-29T04:47:44+00:00",
+ "path": "data/calibration/ORTL04-scalars.csv",
+ "sha256": "fa07182d9472119f6870334c4c8024880c1bfe4a030650d2247a765647d8d68f",
+ "size_bytes": 1541611,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 42210
+}

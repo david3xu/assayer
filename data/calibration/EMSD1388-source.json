@@ -1,0 +1,13 @@
+{
+ "dataset_id": "aee8dc1d-f5f3-434a-9bd3-654ef22f26a",
+ "dataset_name": "EMSD1388",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/EMSD1388",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=aee8dc1d-f5f3-434a-9bd3-654ef22f26a&logid=1a258934-fcc0-4467-8861-3f917860f94&logid=24dcf240-6e62-461e-b58c-f9ade9b1545&logid=f82a4e82-5166-4f43-998d-7118285025b",
+ "retrieved_at": "2026-10-29T04:47:51+00:00",
+ "path": "data/calibration/EMSD1388-scalars.csv",
+ "sha256": "95321ae7a37d5b5bdc002262e7a6d4527f121577ec511d00d42fe22f36494bf5",
+ "size_bytes": 10633373,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 272586
+}
