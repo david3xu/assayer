@@ -1,0 +1,13 @@
+{
+ "dataset_id": "0044685d-62ae-4f87-a7df-8a640a0e9a7",
+ "dataset_name": "PDD446",
+ "borehole_uri": "http://geossdi.dmp.wa.gov.au/resource/feature/gswa/borehole/PDD446",
+ "retrieved_from": "http://geossdi.dmp.wa.gov.au/NVCLDataServices/downloadscalars.html?datasetid=0044685d-62ae-4f87-a7df-8a640a0e9a7&logid=218445ea-9217-4bab-bc9a-34618f889c3&logid=719cadc7-0864-4e5f-aff3-a2b6c66395b&logid=b1304664-511e-4ff0-891f-ec3394f3819",
+ "retrieved_at": "2026-10-29T04:46:17+00:00",
+ "path": "data/sources/PDD446-scalars.csv",
+ "sha256": "9705c4b6494d34fea6392dd25483fdad952ef2cf4103305ab67196f5dc2349d7",
+ "size_bytes": 1524287,
+ "licence": "CC-BY-4.0",
+ "attribution": "Geological Survey of Western Australia, National Virtual Core Library (NVCL) WA node, via AuScope. Licensed CC BY 4.0.",
+ "rows": 39300
+}
