@@ -34,7 +34,7 @@ LEAN_FLAGS = [
 
 
 class MuseCLIModel(StructuredModel):
-    def __init__(self, model: str = DEFAULT_MODEL, *, effort: str = "low",
+    def __init__(self, model: str = DEFAULT_MODEL, *, effort: str = "max",
                  contributor: bool = True, timeout: int = 600,
                  binary: str = "muse"):
         self.name = model

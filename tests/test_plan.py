@@ -134,6 +134,31 @@ def test_contributor_explicit_off_reaches_cli_flag_and_meta(monkeypatch):
     assert argv[argv.index("--contributor-mode") + 1] == "off"
 
 
+def test_effort_default_max_reaches_cli_flag_and_meta(monkeypatch):
+    # David: product Spark calls use max thinking ability by default.
+    assert MuseCLIModel(model="muse-spark-1.3").effort == "max"
+    assert MuseCLIModel().effort == "max"
+    captured = []
+    monkeypatch.setattr(meta_cli_module.subprocess, "run", _fake_cli_run(captured))
+    completion = MuseCLIModel(model="muse-spark-1.3").complete(
+        "prompt", plan_module.PLAN_SCHEMA)
+    assert completion.meta["effort"] == "max"
+    argv = captured[0]
+    assert argv[argv.index("--effort") + 1] == "max"
+
+
+def test_effort_explicit_value_honored_reaches_cli_flag_and_meta(monkeypatch):
+    assert MuseCLIModel(model="muse-spark-1.3", effort="low").effort == "low"
+    captured = []
+    monkeypatch.setattr(meta_cli_module.subprocess, "run", _fake_cli_run(captured))
+    completion = MuseCLIModel(
+        model="muse-spark-1.3", effort="low").complete(
+        "prompt", plan_module.PLAN_SCHEMA)
+    assert completion.meta["effort"] == "low"
+    argv = captured[0]
+    assert argv[argv.index("--effort") + 1] == "low"
+
+
 def test_prompt_carries_statistics_and_no_raw_rows():
     profile = _profile()
     prompt = plan_module.build_prompt(profile)
