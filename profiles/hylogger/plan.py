@@ -1,7 +1,9 @@
 """Stage 8 (plan) — ask the planner model for a generation plan.
 
 The planner is `muse-spark-1.3` reached through
-`models.meta_cli.MuseCLIModel` with contributor mode off. This module never
+`models.meta_cli.MuseCLIModel` with contributor mode on by default
+(product Spark calls use contributor mode; a caller may pass
+`contributor=False` to `MuseCLIModel` to explicitly disable it). This module never
 constructs that call with raw source data: the only source-derived content in
 the prompt is the statistics `Profile` JSON (`statistics.Profile.to_json`) —
 counts, proportions, run lengths and spacings. No raw rows, depths or observed

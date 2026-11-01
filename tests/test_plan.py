@@ -2,7 +2,9 @@ import json
 
 import pytest
 
+from models import meta_cli as meta_cli_module
 from models.base import Completion, Usage
+from models.meta_cli import MuseCLIModel
 from profiles.hylogger import plan as plan_module
 from profiles.hylogger.statistics import Profile
 
@@ -76,6 +78,60 @@ def test_nonconformant_plan_is_rejected(bad):
         plan_module.propose(FakeModel(bad), _profile())
     with pytest.raises(plan_module.PlanError):
         plan_module.validate_plan(bad)
+
+
+def test_contributor_mode_on_by_default_and_explicitly_disableable():
+    # Product Spark calls use contributor mode by default.
+    assert MuseCLIModel(model="muse-spark-1.3").contributor is True
+    assert MuseCLIModel().contributor is True
+    # A caller can still explicitly disable it.
+    assert MuseCLIModel(model="muse-spark-1.3", contributor=False).contributor is False
+    assert MuseCLIModel(model="muse-spark-1.3", contributor=True).contributor is True
+
+
+def _fake_cli_run(captured):
+    def fake_run(argv, **kwargs):
+        captured.append(argv)
+        stdout = "\n".join([
+            json.dumps({"payload_type": "run.usage", "payload": {
+                "models": [{"model": "muse-spark-1.3", "input_tokens": 10,
+                            "cached_tokens": 0, "output_tokens": 5,
+                            "reasoning_tokens": 0, "calls": 1}],
+                "completed_calls": 1}}),
+            json.dumps({"payload_type": "run.terminal.completed", "payload": {
+                "terminal": "completed",
+                "text": json.dumps({"seed": 1, "n_rows": 5})}}),
+        ])
+
+        class Proc:
+            returncode = 0
+            stderr = ""
+        proc = Proc()
+        proc.stdout = stdout
+        return proc
+    return fake_run
+
+
+def test_contributor_default_reaches_cli_flag_and_meta(monkeypatch):
+    captured = []
+    monkeypatch.setattr(meta_cli_module.subprocess, "run", _fake_cli_run(captured))
+    completion = MuseCLIModel(model="muse-spark-1.3").complete(
+        "prompt", plan_module.PLAN_SCHEMA)
+    assert completion.value == {"seed": 1, "n_rows": 5}
+    assert completion.meta["contributor"] is True
+    argv = captured[0]
+    assert argv[argv.index("--contributor-mode") + 1] == "on"
+
+
+def test_contributor_explicit_off_reaches_cli_flag_and_meta(monkeypatch):
+    captured = []
+    monkeypatch.setattr(meta_cli_module.subprocess, "run", _fake_cli_run(captured))
+    completion = MuseCLIModel(
+        model="muse-spark-1.3", contributor=False).complete(
+        "prompt", plan_module.PLAN_SCHEMA)
+    assert completion.meta["contributor"] is False
+    argv = captured[0]
+    assert argv[argv.index("--contributor-mode") + 1] == "off"
 
 
 def test_prompt_carries_statistics_and_no_raw_rows():
